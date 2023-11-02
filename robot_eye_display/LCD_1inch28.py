@@ -1,8 +1,8 @@
 
 import time
-import lcdconfig
+from .lcdconfig import RaspberryPi
 
-class LCD_1inch28(lcdconfig.RaspberryPi):
+class LCD_1inch28(RaspberryPi):
 
     width = 240
     height = 240 

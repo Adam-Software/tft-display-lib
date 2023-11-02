@@ -8,7 +8,7 @@ import logging
 import RPi.GPIO as GPIO
 import spidev as SPI
 from PIL import Image, ImageDraw, ImageFont, ImageSequence
-import LCD_1inch28
+from .LCD_1inch28 import LCD_1inch28
 
 class RobotEyeDisplay:
     def __init__(self):
@@ -18,6 +18,7 @@ class RobotEyeDisplay:
         This class controls the robotic eye display on a Raspberry Pi.
         """
         # GPIO Setup
+        GPIO.setwarnings(False)
         GPIO.setmode(GPIO.BCM)
         GPIO.setup(7, GPIO.OUT)
         GPIO.setup(24, GPIO.OUT)
@@ -45,7 +46,7 @@ class RobotEyeDisplay:
         """
         try:
             self.log.info("Initializing display...")
-            disp = LCD_1inch28.LCD_1inch28(spi=SPI.SpiDev(self.bus, self.device))
+            disp = LCD_1inch28(spi=SPI.SpiDev(self.bus, self.device))
             disp.Init()
             disp.clear()
             GPIO.output(7, 0)
