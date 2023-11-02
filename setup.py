@@ -11,7 +11,7 @@ setup(
     license='Unknown',
     author='vertigra',
     author_email='a@nesterof.com',
-    description='Motion control used old Api for STM32 firmware',
+    description='Robot eye display use for TFT-display 1.28 inch',
     long_description_content_type="text/markdown",
     long_description=long_description,
     install_requires=['Adam-display-for-controller'],
