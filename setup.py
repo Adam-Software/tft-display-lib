@@ -8,7 +8,7 @@ setup(
     version='0.1.1',
     packages=['robot_eye_display'],
     url='https://github.com/Adam-Software/tft-display-lib',
-    license='MIT',
+    license='Unknown',
     author='vertigra',
     author_email='a@nesterof.com',
     description='Motion control used old Api for STM32 firmware',
@@ -17,7 +17,7 @@ setup(
     install_requires=['Adam-display-for-controller'],
     classifiers=[
         'Development Status :: 3 - Alpha',
-        'License :: OSI Approved :: MIT License',
+        'License :: OSI Approved ::Unknown',
         'Operating System :: POSIX :: Linux',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
