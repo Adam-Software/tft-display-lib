@@ -8,10 +8,7 @@ import logging
 import RPi.GPIO as GPIO
 import spidev as SPI
 from PIL import Image, ImageDraw, ImageFont, ImageSequence
-
-# Import custom LCD library
-sys.path.append("..")
-from lib import LCD_1inch28
+import LCD_1inch28
 
 class RobotEyeDisplay:
     def __init__(self):

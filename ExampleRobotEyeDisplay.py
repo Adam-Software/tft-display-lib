@@ -1,4 +1,4 @@
-import RobotEyeDisplay
+from robot_eye_display import RobotEyeDisplay
 
 robot_eye_display = RobotEyeDisplay()
 

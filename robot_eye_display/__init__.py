@@ -1,2 +1,3 @@
 from .RobotEyeDisplay import RobotEyeDisplay
-from .lib.LCD_1inch28 import LCD_1inch28
+from .LCD_1inch28 import LCD_1inch28
+from .lcdconfig import lcdconfig
