@@ -13,13 +13,5 @@ setup(
     author_email='a@nesterof.com',
     description='Robot eye display use for TFT-display 1.28 inch',
     long_description_content_type="text/markdown",
-    long_description=long_description,
-    classifiers=[
-        'Development Status :: 3 - Alpha',
-        'License :: OSI Approved ::Unknown',
-        'Operating System :: POSIX :: Linux',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
-        'Programming Language :: Python :: 3.9'
-    ]
+    long_description=long_description
 )
